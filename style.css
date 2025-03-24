@@ -267,12 +267,17 @@ margin: 10px;
     margin-left: 470px;
     margin-top: 10px;
 }
-@media screen and (max-width:340px){
+@media screen and (max-width:360px){
     .star{
         margin-left: 0;
 
     }
     
+}
+@media screen and (max-width:350px){
+    .banner{
+        height: 50vh;
+    }
 }
 
 
