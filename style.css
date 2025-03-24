@@ -246,7 +246,7 @@ footer{
     margin-left: 50px;
     align-items: center;
 }
-ul li{
+.me li{
 list-style: none;
 color: #fff;
 margin: 10px;
@@ -255,5 +255,24 @@ margin: 10px;
 .name{
     height: 40vh;
 }
+.qq{
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    color: #fff;
+}
+.arrow{
+    width: 100px;
+}
+.star{
+    margin-left: 470px;
+    margin-top: 10px;
+}
+@media screen and (max-width:340px){
+    .star{
+        margin-left: 62;
+
+    }
+}
+
 
 
