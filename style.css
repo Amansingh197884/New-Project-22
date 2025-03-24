@@ -269,8 +269,11 @@ margin: 10px;
 }
 @media screen and (max-width:340px){
     .star{
-        margin-left: 62;
+        margin-left: 0;
 
+    }
+    .banner{
+        height: 60vh;
     }
 }
 
