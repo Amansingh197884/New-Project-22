@@ -17,6 +17,11 @@ margin: 20px;
     background-size: cover;
     background-position: center;
 }
+@media screen and(max-width:360px){
+    .home{
+        background-size: contain;
+    }
+}
 section{
     padding: 2rem 7%;
 }
