@@ -9,6 +9,54 @@ margin: 20px;
 .nav-link{
     margin: 10px;
 }
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(aman.jpeg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+section{
+    padding: 2rem 7%;
+}
+.home.contantt{
+    max-width: 40rem;
+}
+.home .contantt h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.home .contantt p{
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 0;
+    max-height: 40rem;
+}
+.home{
+    background-position: left;
+    /* justify-content: center; */
+    text-align: center;
+
+}
+.home.contantt h3{
+    font-size: 3rem;
+}
+.home.contantt p{
+    font-size: 1rem;
+}
+.contantt a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+@media screen and(max-width:991px){
+    section{
+        padding: 2rem;
+    }
+}
+
 
 .banner{
     background: url(aman.jpeg);
