@@ -19,6 +19,8 @@ margin: 20px;
 }
 @media screen and (max-width:350px){
     .banner{background-size: contain;
+        height: 40vh;
+        text-align: center;
 
     }
 }
