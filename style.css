@@ -146,7 +146,8 @@ color: #fff;
 }
 .imf1{
     border-radius: 20px;
-    margin: 10PX;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* card section */
 .card-wrapper {
