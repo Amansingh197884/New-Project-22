@@ -343,10 +343,10 @@ footer{
 }
 
 .aloo{
-    height: 60vh;
+    height: 80vh;
 }
 .dar{
-    height: 60vh;
+    height: 80vh;
 }
 .time{
     padding-bottom: 10px;
@@ -354,9 +354,17 @@ footer{
 .me li{
     list-style: none;
     color: #fff;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+@media screen and(max-width:370px){
+    .aloo{
+        height: 60vh;
+    }
+    .dar{
+        height: 60vh;
+    }
 }
 
 
