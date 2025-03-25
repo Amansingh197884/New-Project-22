@@ -20,6 +20,7 @@ margin: 20px;
 @media screen and(max-width:360px){
     .home{
         background-size: contain;
+        min-height: fit-content;
     }
 }
 section{
@@ -83,7 +84,7 @@ section{
     color:#ffff;
     font-weight: bolder;
 }
-.banner-content p{
+.power{
     padding-left: 100px;
     color: #fff;
     /* font-weight: 800; */
@@ -359,4 +360,47 @@ margin: 10px;
         background: url(photo.jpeg);
     }
 }
+
+/* ne w se */
+
+
+.banner-section {
+    background: url(yelloe.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 2px dashed green;
+    margin: 10px;
+
+}
+
+.banner-section .carousel-item {
+    height: 50vh;
+}
+
+
+
+
+.ppp {
+    color: black;
+    font-family: sans-serif;
+    font-size: 23px;
+    min-width: 200px;
+}
+@media screen and (max-width:400px){
+    .ppp{
+        font-size: 13px;
+    }
+}
+
+
+
+.banner-section .carousel-caption p {
+    margin-bottom: 2rem;
+}
+
 
