@@ -283,35 +283,24 @@ color: #fff;
 /* crad css  */
 
 footer{
-    width: 100%;
-    position: absolute;
+    /* width: 100%; */
+    /* position: absolute; */
     /* bottom: 0; */
     /* background-color: #5372F0; */
     /* padding: 100px 0 30px; */
-    font-size: 13px;
-    line-height: 40px;
-    height: 50vh;
+    /* font-size: 13px;
+    line-height: 40px; */
+    /* width: 100%; */
 }
-.new-row{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-.col{
-    padding: 20px;
-    margin: 40px;
-    margin-left: 50px;
-    align-items: center;
-}
-.me li{
-list-style: none;
-color: #fff;
-margin: 10px;
 
+.col{
+    padding: 40px;
+    /* margin: 80px; */
+    /* margin-left: 50px; */
+    align-items: center;
+    width: 100%;
 }
+
 .name{
     height: 40vh;
 }
@@ -351,55 +340,20 @@ margin: 10px;
         padding-top: 25px;
     }
 }
-@media screen and (max-width:35px){
-    
+
+.aloo{
+    height: 60vh;
 }
-@media screen and (max-width:350px){
-    .image-bggP{
-        background: url(photo.jpeg);
-    }
+.dar{
+    height: 60vh;
 }
-
-/* ne w se */
-
-
-.banner-section {
-    background: url(yelloe.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 50vh;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 20px;
-    border: 2px dashed green;
-    margin: 10px;
-
+.time{
+    padding-bottom: 10px;
 }
+.me li{
+    list-style: none;
+    color: #fff;
 
-.banner-section .carousel-item {
-    height: 50vh;
-}
-
-
-
-
-.ppp {
-    color: black;
-    font-family: sans-serif;
-    font-size: 23px;
-    min-width: 200px;
-}
-@media screen and (max-width:400px){
-    .ppp{
-        font-size: 13px;
-    }
-}
-
-
-
-.banner-section .carousel-caption p {
-    margin-bottom: 2rem;
 }
 
 
