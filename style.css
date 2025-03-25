@@ -289,5 +289,7 @@ margin: 10px;
         font-size: 30px;
     }
 }
-
+@media screen and (max-width:35px){
+    
+}
 
