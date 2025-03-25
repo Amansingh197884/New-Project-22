@@ -2,7 +2,7 @@
     background-color: #ffff;
     border-radius: 30px;
 background-position: center;
-background-size: contain;
+background-size: cover;
 margin: 20px;
 
 }
@@ -16,6 +16,11 @@ margin: 20px;
     background-size: cover;
     height: 100vh;
     opacity: 0.9;
+}
+@media screen and (max-width:350px){
+    .banner{background-size: contain;
+
+    }
 }
 .banner-content H3{
     padding-top: 200PX;
