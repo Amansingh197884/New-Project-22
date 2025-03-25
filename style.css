@@ -288,9 +288,15 @@ margin: 10px;
     .banner-content H3{
         margin-top: 0;
         font-size: 30px;
+        line-height: 0.2;
     }
 }
 @media screen and (max-width:35px){
     
+}
+@media screen and (max-width:350px){
+    .image-bggP{
+        background: url(photo.jpeg);
+    }
 }
 
