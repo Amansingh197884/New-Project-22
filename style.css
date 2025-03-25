@@ -280,5 +280,14 @@ margin: 10px;
     }
 }
 
+.icon-n{
+    margin: 5px;
+}
+@media screen and (max-width:350px){
+    .banner-content H3{
+        margin-top: 0;
+        font-size: 30px;
+    }
+}
 
 
