@@ -408,11 +408,5 @@ footer{
     padding-left: 20px;
 }
 .nameall{
-    margin-left: 13px;
-    margin-top: 10px;
-}
-@media screen and (max-width:360px){
-    .nameall{
-        margin-left: 0;
-    }
+    padding: 26px;
 }
