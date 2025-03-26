@@ -372,6 +372,11 @@ footer{
         margin-left: 0;
     }
 }
+@media screen and (max-width:36px){
+    .home .contantt h3{
+        margin-top: 10px;
+    }
+}
 
 
 
