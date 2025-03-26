@@ -101,15 +101,28 @@ section{
     background-color: #fff;
 padding: 10px 20px;
 margin-top: 10px;
+color: #000;
 }
 .buttonn{
     border: 1px solid #fff;
     border-radius: 20px;
     background-color: #fff;
 padding: 10px 20px;
+color: #000;
 
 margin-top: 10px;
     }
+.buttonn:hover{
+    background-color: #946B2D;
+    color: #fff;
+    border: none;
+
+}    
+.button:hover{
+    background-color: #946B2D;
+    color: #fff;
+    border: none;
+}
 .but{
     
     border-radius: 20px;
@@ -117,6 +130,11 @@ background-color: #946B2D;
 padding: 10px 20px;
 text-decoration: none;
 color: #fff;
+}
+.but:hover{
+    background-color: #5372F0;
+    color: #000;
+    
 }
 
 /* End the part 1 */
@@ -378,6 +396,7 @@ footer{
         margin-top: 35px;
     }
 }
+/* form .swiper-pagination-bullet */
 
 
 
