@@ -1,173 +1,168 @@
-body{
-    /* background-color: rgba(21, 216, 66, 0.858); */
-    background-image: url(https://www.shutterstock.com/image-photo/colourful-smoke-4k-wall-paper-600nw-1531304273.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    }
-    .container{
-        width: 350px;
-        height: 400px;
-        background-color: rgba(255, 255, 255, 0.352);
-        margin-left: 219px;
-        border-radius: 10px;
-        margin-top: 152px;
-        border-radius: 5px;
-    box-shadow: 2px 1px 10px;
-    /* flex-direction: column; */
-    
-    
-    
-    }
-    .login{
-        margin-top: 50px;
-        /* margin-left: 136px; */
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 30px;
-        /* color: black; */
-    }
-    form input{
-        width: 300px;
-        height: 40px;
-        border: 1px solid black;
-        border-radius: 1px;
-        margin-left: 25px;
-        margin-top: 25px;
-        padding-left: 10px;
-    
-    }
-    .Forgot {
-        margin-left: 25px;
-        margin-top: 15px;
-        font-size: 15px;
-        color: black;
-        /* margin-top: 20px; */
-        margin-bottom: 50px;
-        font-weight: bolder;
-    }
-    .chek{
-        margin-left: 25px;
-        margin-top: -37px;
-        font-size: 15px;
-        color: black;
-        /* margin-top: 10px; */
-        margin-bottom: 20px;
-        font-weight: bolder;
-    }
-    .Login button {
-        width: 300px;
-        height: 40px;
-        background-color: green;
-        color: black;
-        border: 1px solid green;
-        border-radius: 1px;
-        margin-left: 25px;
-        /* margin-top: 15px; */
-        font-size: 20px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    .p a{
-        margin-left: 15px;
-        margin-top: 10px;
-        font-size: 15px;
-        color: black;
-        margin-top: 20px;
-        margin-bottom: 50px;
-        font-weight: bolder;
-    }
-    .p{
-        margin-left: 25px;
-    }
-    .main{
-        width: 350px;
-        height: 450px;
-        background-color:  rgba(255, 255, 255, 0.352);
-        border-radius: 5px;
-        box-shadow: 2px 1px 10px;
-        margin-left: 650px;
-        margin-top: -501px;
-    
-        
-    
-    }.Signup{
-        margin-top: 50px;
-        /* margin-left: 136px; */
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 30px;}
-        .up button{
-            width: 300px;
-        height: 40px;
-        background-color: green;
-        color: white;
-        border: 1px solid green;
-        border-radius: 1px;
-        margin-left: 25px;
-        margin-top: 15px;
-        font-size: 20px;
-        font-weight: bold;
-        cursor: pointer;
-        }
-        .a a{
-            margin-left: 15px;
-        margin-top: 10px;
-        font-size: 15px;
-        color: black;
-        margin-top: 20px;
-        margin-bottom: 50px;
-        font-weight: bolder;
-        }
-        .a{
-            margin-left: 25px;
-        }
-        .up button:hover{
-            background-color: rgb(170, 19, 157);
-            color: rgb(0, 0, 0);
-            border: 5px solid rgb(255, 255, 255);
-        }
-        .Login button:hover{
-            background-color:  rgb(170, 19, 157);
-            color: rgb(0, 0, 0);
-            border: 5px solid  white;
-        }
-        .a a:hover{
-            color: white;
-            font-weight: bolder;
-            font-size: 15px;
-        }
-        .p a:hover {
-            color: rgb(170, 19, 157);
-            font-weight: bolder;
-        }
-        .Forgot:hover{
-            
-            color: white;
-            font-weight: bolder;
-        }
-        .Login{
-            color: black;
-        }
-        /* @media only screen and (max-width: 600px){
-            .main{
-                
-                
-                /* display: block; */
-                /* display: inline-table; */
-                /* flex-direction: column; */
-                /* margin-right: 650px; */
-                /* margin-top: 501px; */
-                /* background-color: rgba(127, 255, 212, 0.425); */
-                /* display: flex; */
-            /* } */
-        /* } */
-        /* @media only screen and(max-width:600px){ */
-            /* .container{ */
-                /* justify-content: center; */
-                /* align-items: center; */
-                /* display: flex; */
-            /* } */
-        /* } */ 
+.form-block {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e8e8ef;
+}
+
+.form-block form {
+    padding: 0 20px 30px 20px;
+}
+
+.form-block input:focus,
+.form-block textarea:focus {
+    border: 1px solid #f85359;
+}
+
+.form-block input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    color: #172b43;
+    font-size: 16px;
+    outline: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e6e6e6;
+}
+
+.form-block textarea {
+    max-height: 200px;
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    color: #172b43;
+    font-size: 16px;
+    outline: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e6e6e6;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #f85359;
+    background-color: #f85359;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+    border-color: #ffbc80;
+}
+
+.custom-control-label::before {
+    position: absolute;
+    top: -1px;
+    left: -1.5rem;
+    display: block;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    content: "";
+    background-color: #fff;
+    border: #adb5bd solid 1px;
+}
+
+.custom-control-label::after {
+    position: absolute;
+    top: -3px;
+    left: -26px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background: no-repeat 50%/50% 50%;
+}
+
+.custom-control {
+    margin-bottom: 10px;
+}
+
+.form-block label input {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+}
+
+.fieldsets label {
+    position: relative;
+    top: -10px;
+    font-size: 14px;
+    color: #f85359;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-control label {
+    text-indent: -21px;
+    padding: 0 0 0 21px;
+    font-size: 13px;
+}
+
+.form-block label a {
+    color: #000;
+}
+
+.form-header {
+    text-align: center;
+    border-bottom: 3px solid #f85359;
+    padding: 20px 0 20px 0;
+    margin: 0 0 20px 0;
+    background-color: #fff5f5;
+}
+
+.form-header h2 span {
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    color: #0a2233;
+}
+
+.form-header p {
+    text-align: center;
+}
+
+.form-block p.trm {
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.form-block p.trm i {
+    padding: 5px 5px 0 0;
+}
+
+.form-block button:hover {
+    background-color: #0a2233;
+}
+
+.form-block button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Merriweather;
+    padding: 0 40px;
+    line-height: 60px;
+    text-align: center;
+    outline: 0;
+    color: #fff !important;
+    background-color: #f85359;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+}
+
