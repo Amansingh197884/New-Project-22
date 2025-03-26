@@ -121,10 +121,11 @@ color: #fff;
 
 /* End the part 1 */
 .sell{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 15px;
-    margin-bottom: 2    0px;
+    /* padding-top: -5px;
+    padding-bottom: -1px; */
+    margin: 13px;
+    /* margin-bottom: 2    0px; */
+    
 }
 .content span{
     color: #946B2D;
