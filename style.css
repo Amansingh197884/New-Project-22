@@ -487,6 +487,12 @@ border: none    ;
             margin-left: 20px;border: none;
 
         }
+        @media screen and (max-width:360px) {
+            .popup{
+                margin-top: 0;
+            }
+            
+        }
         .open-btn{
             border: none;
         }
