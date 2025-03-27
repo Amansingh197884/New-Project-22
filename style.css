@@ -602,3 +602,73 @@ border: none    ;
     transition: 0.2s ease;
     margin: 20px;
 }
+.me a {
+    text-decoration: none;
+    position: relative;
+    
+}
+.me a li:hover{
+    color: chartreuse;
+}
+.me a:hover,
+.me a:active{
+    color: chartreuse;
+}
+@media (min-width: 991px) {
+    .me a::before {
+
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        background-color: green;
+        visibility: hidden;
+        transition: 0.4s ease-in-out;
+    }
+
+    .me a:hover::before,
+    .me a::before {
+
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.me a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-90%);
+    width: 0%;
+    height: 2px;
+    background-color: green;
+    visibility: hidden;
+    transition: 0.4s ease-in-out;
+}
+.me a:hover::before {
+    width: 100%;
+    visibility: visible;
+}
+.icon a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
