@@ -60,13 +60,15 @@
               </ul>
               <div class="header-right">
                 <div class="text-lg-end">
-                  <a class="but" href="contact.html">Contact us</a>
+
+                  <a class="but" href="#" onclick="openPopup()">Contact us </a>
+
                
                 </div>
               </div>
 
             </div>
-            <button class="open-btn" onclick="openPopup()"><i class="fa-solid fa-user-plus fa-2xl btttt" style="color: #946b2d;"></i></button>
+            <a class="open-btn" href="contact.html"><i class="fa-solid fa-user-plus fa-2xl btttt" style="color: #946b2d;"></i></a>
 
           </div>
         </nav>
@@ -464,6 +466,14 @@
          document.getElementById("popup").style.display = "none";
          document.getElementById("overlay").style.display = "none";
      }
+     window.addEventListener("load" , function(){
+      setTimeout(
+        function Open(event){
+          document.querySelector(".popup").style.display = "block";
+        },
+2000
+      )
+     });ssss
  </script>
 
 
