@@ -61,6 +61,8 @@
               <div class="header-right">
                 <div class="text-lg-end">
                   <a class="but" href="contact.html">Contact us</a>
+                  <button class="open-btn" onclick="openPopup()"><i class="fa-solid fa-user-plus fa-2xl btttt" style="color: #946b2d;"></i></button>
+
                 </div>
               </div>
 
@@ -421,7 +423,43 @@
     </footer>
   </div> -->
 
-  <!-- footer  -->
+ <!-- Open Popup Button -->
+
+ <!-- Overlay -->
+ <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+ <!-- Popup Modal -->
+ <div class="popup" id="popup">
+     <h2>Fill the Form</h2>
+     <p>This is a simple Form</p>
+     <input type="tel" class="form-control mb-2  w-100 " name="phone" placeholder="Enter Your name"
+     required>
+     <input type="tel" class="form-control mb-2  w-100 " name="phone" placeholder="Enter Your password"
+     required>
+     
+     <input type="tel" class="form-control mb-2  w-100 " name="phone" placeholder="Your Mobile Number"
+     required>
+ 
+ 
+   <input type="text" class="form-control mb-2  w-100 " name="City" placeholder="Enter Your City">
+   <input type="tel" class="form-control mb-2  w-100 " name="phone" placeholder="Enter Your password"
+   required>
+ 
+ <a class="open-btnn" href="#">Submite</a>
+     <button class="close-btn" onclick="closePopup()">Close</button>
+ </div>
+
+ <script>
+     function openPopup() {
+         document.getElementById("popup").style.display = "block";
+         document.getElementById("overlay").style.display = "block";
+     }
+
+     function closePopup() {
+         document.getElementById("popup").style.display = "none";
+         document.getElementById("overlay").style.display = "none";
+     }
+ </script>
 
 
 
