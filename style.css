@@ -688,6 +688,8 @@ border: none    ;
 }
 .marg{
     border-radius: 10px;
+    box-shadow: 1px 0px 8px;
+
 
 }
 .aloo{
@@ -715,7 +717,9 @@ border: none    ;
     margin-top: 3px;
     border-bottom: 2px solid rgb(227, 153, 187)
 }
-
+.aman-singh{
+    box-shadow: 2px 0px 8px;
+}
 
 
 
