@@ -241,10 +241,18 @@ color: #fff;
     width: 100%;
     object-fit: cover;
     aspect-ratio: 9/ 9;
-    border-radius: 20px;
     /* border: 1px dashed rgba(0, 185, 142, 0.909) !important; */
+    border-radius: 1px;
 
 }
+list .card-item .card-image {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 9 / 9;
+    /* border: 1px dashed rgba(0, 185, 142, 0.909) !important; */
+    border-radius: 20px;
+}
+
 
 .card-list .card-link .like {
     color: #5372F0;
@@ -671,6 +679,16 @@ border: none    ;
     margin: 20px;
     border-radius: 15px;
     color: #fff;
+}
+@media screen and (max-width:400px){
+    .font{
+        font-size: 40px;
+    }
+}
+.marg{
+}
+.aloo{
+    border-radius: 20px;
 }
 
 
