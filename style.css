@@ -48,7 +48,7 @@ margin: 20px;
     display: flex;
     align-items: center;
     /* background: url(aman.jpeg) no-repeat;  */
-    background-image: linear-gradient(rgba(0,0,0,0.50) ,rgba(0,0,0,0.50)),url(aman.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.50) ,rgba(0,0,0,0.50)),url(images/aman.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -565,6 +565,7 @@ border: none    ;
             text-align: center;
             z-index: 1000;
             margin-top: 45px;
+            background-color: #2e2e2e;
         }
         @media screen and (max-width:400px){
             .popup{
@@ -692,7 +693,12 @@ border: none    ;
 }
 
 
-
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: none!important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: none!important;
+}
 
 
 
